@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.*;
 
 public class lesson5_1_Skrypak {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] myArray = {56, 98, 56, 12, 34, 5, 12, 34, 8, 2};
         HashMap<Integer,Integer> hashmap = new HashMap<Integer,Integer>();
         for (int i = 0; i < myArray.length; i++) {
