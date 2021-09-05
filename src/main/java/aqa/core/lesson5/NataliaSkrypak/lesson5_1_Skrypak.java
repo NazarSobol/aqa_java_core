@@ -4,16 +4,9 @@ import java.util.HashMap;
 import java.util.*;
 
 public class lesson5_1_Skrypak {
-    public static void main(String[] args) {
-        int[] myArray = {56, 98, 56, 12, 34, 5, 12, 34, 8, 2};
-        HashMap<Integer,Integer> hashmap = new HashMap<Integer,Integer>();
-        for (int i = 0; i < myArray.length; i++) {
-            hashmap.put(myArray[i], i);
-        }
-        System.out.println(hashmap.keySet());
-    }
 
-    void int[] mergedArray(int[] arr) {
+
+    void static int[] mergedArray(int[]){
         int[] arr1 = {56, 98, 56, 12, 34, 5};
         int[] arr2 = {45, 67, 32, 90, 45, 90};
         int[] mergedArray = new int[arr1.length + arr2.length];
@@ -61,5 +54,14 @@ public class lesson5_1_Skrypak {
             }
         }
         return evenArr[i];
+    }
+
+    public static void main(String[] args) {
+        int[] myArray = {56, 98, 56, 12, 34, 5, 12, 34, 8, 2};
+        HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
+        for (int i = 0; i < myArray.length; i++) {
+            hashmap.put(myArray[i], i);
+        }
+        System.out.println(hashmap.keySet());
     }
 }
